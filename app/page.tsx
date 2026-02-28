@@ -39,6 +39,7 @@ export default function Home() {
         </div>
       </section>
 
+
       {/* Bento Grid Features */}
       <section id="why-us">
         <div className="section-header">
@@ -207,6 +208,21 @@ export default function Home() {
           </div>
           
 
+        </div>
+      </section>
+
+      {/* Available On Section */}
+      <section className="available-on">
+        <div className="available-container">
+          <p className="available-text">Available Online On</p>
+          <div className="brand-logos">
+            <div className="brand-logo amazon">amazon</div>
+            <div className="brand-logo flipkart">Flipkart</div>
+            <div className="brand-logo swiggy">swiggy</div>
+            <div className="brand-logo zomato">zomato</div>
+            <div className="brand-logo blinkit">blinkit</div>
+            <div className="brand-logo meesho">meesho</div>
+          </div>
         </div>
       </section>
 

@@ -19,9 +19,9 @@ export default function Navbar() {
         {/* Desktop Links */}
         <div className="nav-links">
           <Link href="/">Home</Link>
-          <Link href="/about-us">About Us</Link>
+          <Link href="/about">About</Link>
           <Link href="/why-us">Why Us</Link>
-          <Link href="/#products">Products</Link>
+          <Link href="/products">Products</Link>
           <Link href="/blogs">Blogs</Link>
         </div>
         
@@ -39,9 +39,9 @@ export default function Navbar() {
       {/* Mobile Dropdown Menu */}
       <div className={`mobile-nav-dropdown ${isMobileMenuOpen ? 'open' : ''}`}>
         <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
-        <Link href="/about-us" onClick={() => setIsMobileMenuOpen(false)}>About Us</Link>
+        <Link href="/about" onClick={() => setIsMobileMenuOpen(false)}>About</Link>
         <Link href="/why-us" onClick={() => setIsMobileMenuOpen(false)}>Why Us</Link>
-        <Link href="/#products" onClick={() => setIsMobileMenuOpen(false)}>Products</Link>
+        <Link href="/products" onClick={() => setIsMobileMenuOpen(false)}>Products</Link>
         <Link href="/blogs" onClick={() => setIsMobileMenuOpen(false)}>Blogs</Link>
         <a href="/#order" className="btn btn-primary btn-sm mobile-cta" onClick={() => setIsMobileMenuOpen(false)}>Get Yours</a>
       </div>
