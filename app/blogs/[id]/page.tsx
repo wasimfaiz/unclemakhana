@@ -75,6 +75,41 @@ const blogContent: Record<string, any> = {
         <p>By consuming makhana, you are not just making a healthy choice for yourself, but you are also supporting rural agricultural communities that rely on this sustainable, eco-friendly crop.</p>
       </>
     )
+  },
+  'makhana-for-kids': {
+    title: 'Why Makhana is the Perfect Lunchbox Snack for Kids',
+    date: 'January 28, 2026',
+    author: 'Admin',
+    image: '/blog-img/blog_kids.png',
+    color: 'var(--accent-pink)',
+    content: (
+      <>
+        <p>Parents are constantly navigating the difficult line between packing a healthy school lunch and packing a lunch their kids will actually want to eat.</p>
+        <h2>Kid-Approved Crunch</h2>
+        <p>Children naturally gravitate towards snacks that have a satisfying crunch. Because roasted makhana mimics the texture of popcorn and potato chips, kids love them immediately.</p>
+        <h2>Flavors That Win</h2>
+        <p>With fun flavors like Cheese Delight and Cream & Onion, it doesn't feel like a "health food" to children. It feels like a treat!</p>
+        <h2>Guilt-Free for Parents</h2>
+        <p>Unlike greasy potato chips that leave residues and contain empty calories, a box of makhana ensures your child gets high-quality protein and fiber. This means they'll stay energized throughout the school day without a sudden sugar crash.</p>
+      </>
+    )
+  },
+  'history-of-makhana': {
+    title: 'An Ancient Superfood: The Fascinating History of Makhana',
+    date: 'January 14, 2026',
+    author: 'Historian Gupta',
+    image: '/blog-img/blog_history.png',
+    color: 'var(--text-muted)',
+    content: (
+      <>
+        <p>While Western wellness circles are just now discovering the power of the "fox nut," makhana has been a revered staple in Indian culture for millennia.</p>
+        <h2>The Food of The Gods</h2>
+        <p>In Hindu traditions, makhana is considered exceptionally pure. It is frequently offered to deities during religious festivals like Navratri and is consumed during fasting periods because it provides immense sustained energy.</p>
+        <h2>Traditional Ayurvedic Medicine</h2>
+        <p>Ancient Ayurvedic texts praise makhana for its astringent properties. It was historically prescribed to help balance the Vata and Pitta doshas, build strength, and promote longevity and vitality.</p>
+        <p>Today, enjoying a bowl of Uncle Makhana connects you directly to this ancient, sacred history. What was once isolated to religious ceremonies and ancient healing is now an ultra-healthy modern snack.</p>
+      </>
+    )
   }
 };
 

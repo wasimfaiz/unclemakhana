@@ -43,6 +43,24 @@ const blogs = [
     image: '/blog-img/blog_journey.png',
     color: 'var(--accent-blue)',
   },
+  {
+    id: 'makhana-for-kids',
+    title: 'Why Makhana is the Perfect Lunchbox Snack for Kids',
+    excerpt: 'Struggling to find snacks that are both healthy and loved by kids? Flavored makhana might be the game-changer you need this school year.',
+    date: 'January 28, 2026',
+    author: 'Admin',
+    image: '/blog-img/blog_kids.png',
+    color: 'var(--accent-pink)',
+  },
+  {
+    id: 'history-of-makhana',
+    title: 'An Ancient Superfood: The Fascinating History of Makhana',
+    excerpt: 'Long before it was a modern trendy snack, Makhana was considered the "food of the gods". Uncover the rich heritage of this sacred seed.',
+    date: 'January 14, 2026',
+    author: 'Historian Gupta',
+    image: '/blog-img/blog_history.png',
+    color: 'var(--text-muted)',
+  },
 ];
 
 export default function BlogsPage() {
