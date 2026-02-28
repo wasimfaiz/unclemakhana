@@ -87,8 +87,41 @@ export default function AboutUs() {
           </div>
         </div>
 
-      </section>
+      {/* Story Part 4 : Image Left, Text Right */}
+        <div className="story-split" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '80px', alignItems: 'center', marginBottom: '160px' }}>
+          <div style={{ borderRadius: 'var(--radius-xl)', overflow: 'hidden', boxShadow: 'var(--shadow-hover)' }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/story/grading.png" alt="Grading and sorting Makhana" style={{ width: '100%', height: 'auto', objectFit: 'cover', display: 'block' }} />
+          </div>
+          <div>
+            <h2 style={{ fontSize: 'clamp(2.5rem, 4vw, 3.5rem)', marginBottom: '32px', lineHeight: 1.1 }}>The <br/><span style={{ color: 'var(--accent-blue)' }}>Meticulous Grade.</span></h2>
+            <p style={{ fontSize: '1.25rem', color: 'var(--text-main)', lineHeight: 1.8, marginBottom: '24px' }}>
+              Not all fox nuts are created equal. Once popped, the fluffy white seeds are meticulously sorted and graded entirely by hand.
+            </p>
+            <p style={{ fontSize: '1.25rem', color: 'var(--text-muted)', lineHeight: 1.8 }}>
+              Only the largest, most structurally sound, and perfectly spherical makhanas are chosen to bear the Uncle Makhana name. This rigorous selection process ensures an uncompromising, ultra-premium crunch in absolutely every single bite.
+            </p>
+          </div>
+        </div>
 
+        {/* Story Part 5 : Text Left, Image Right */}
+        <div className="story-split" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '80px', alignItems: 'center', marginBottom: '80px', direction: 'rtl' }}>
+          <div style={{ borderRadius: 'var(--radius-xl)', overflow: 'hidden', boxShadow: 'var(--shadow-hover)' }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/story/flavoring.png" alt="Flavoring Makhana with spices" style={{ width: '100%', height: 'auto', objectFit: 'cover', display: 'block' }} />
+          </div>
+          <div style={{ direction: 'ltr' }}>
+            <h2 style={{ fontSize: 'clamp(2.5rem, 4vw, 3.5rem)', marginBottom: '32px', lineHeight: 1.1 }}>A Symphony of <br/><span style={{ color: 'var(--brand-solid)' }}>Global Flavors.</span></h2>
+            <p style={{ fontSize: '1.25rem', color: 'var(--text-main)', lineHeight: 1.8, marginBottom: '24px' }}>
+              The journey concludes with our signature roasting process. We strictly dry-roast our graded makhanas, completely avoiding heavy fry oils.
+            </p>
+            <p style={{ fontSize: '1.25rem', color: 'var(--text-muted)', lineHeight: 1.8 }}>
+              They are then gently tumbled in our bespoke, all-natural spice blends. From the traditional heat of Peri Peri to the soothing coolness of Cream & Onion, the makhana acts as a perfect, highly-absorbent canvas for explosive flavor.
+            </p>
+          </div>
+        </div>
+
+      </section>
       {/* Footer CTA */}
       <section style={{ background: 'var(--surface)', padding: '120px 24px', textAlign: 'center' }}>
         <div style={{ maxWidth: '800px', margin: '0 auto' }}>
