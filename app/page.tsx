@@ -237,7 +237,10 @@ export default function Home() {
           <div className="testimonial-card">
             <p className="testimonial-quote">&quot;Honestly the best healthy snack I&apos;ve tried! The Peri Peri flavor is out of this world and genuinely keeps me full.&quot;</p>
             <div className="testimonial-author">
-              <div className="author-avatar">A</div>
+              <div className="author-avatar" style={{ overflow: 'hidden' }}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/avatars/anjali.png" alt="Anjali Sharma" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              </div>
               <div className="author-info">
                 <h4>Anjali Sharma</h4>
                 <p>Happy Customer</p>
@@ -248,7 +251,10 @@ export default function Home() {
           <div className="testimonial-card">
             <p className="testimonial-quote">&quot;My kids are obsessed with the Cheese Delight, and I absolutely love that it&apos;s actually good for them! A lifesaver.&quot;</p>
             <div className="testimonial-author">
-              <div className="author-avatar" style={{background: 'var(--accent-blue)'}}>R</div>
+              <div className="author-avatar" style={{ overflow: 'hidden' }}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/avatars/rahul.png" alt="Rahul Patel" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              </div>
               <div className="author-info">
                 <h4>Rahul Patel</h4>
                 <p>Parent of Two</p>
@@ -259,7 +265,10 @@ export default function Home() {
           <div className="testimonial-card">
             <p className="testimonial-quote">&quot;The perfect companion for my evening chai. It&apos;s incredibly light and has an absolutely satisfying crunch every time.&quot;</p>
             <div className="testimonial-author">
-              <div className="author-avatar" style={{background: 'var(--accent-pink)'}}>M</div>
+              <div className="author-avatar" style={{ overflow: 'hidden' }}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/avatars/meena.png" alt="Meena Kapoor" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              </div>
               <div className="author-info">
                 <h4>Meena Kapoor</h4>
                 <p>Loyal Fan</p>
