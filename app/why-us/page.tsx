@@ -1,4 +1,4 @@
-import { FiActivity } from 'react-icons/fi';
+import { FiActivity, FiHeart, FiSun } from 'react-icons/fi';
 import { FaLeaf, FaFireAlt, FaHeartbeat } from 'react-icons/fa';
 
 export const metadata = {
@@ -78,7 +78,7 @@ export default function WhyUs() {
         </div>
 
         {/* Story Part 3 : Text Left, Image Right */}
-        <div className="story-split" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '80px', alignItems: 'center', marginBottom: '80px', direction: 'rtl' }}>
+        <div className="story-split" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '80px', alignItems: 'center', marginBottom: '160px', direction: 'rtl' }}>
           <div style={{ borderRadius: 'var(--radius-xl)', overflow: 'hidden', boxShadow: 'var(--shadow-hover)' }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/health/spices.png" alt="Raw natural immunity spices" style={{ width: '100%', height: 'auto', objectFit: 'cover', display: 'block' }} />
@@ -93,6 +93,46 @@ export default function WhyUs() {
             </p>
             <p style={{ fontSize: '1.25rem', color: 'var(--text-muted)', lineHeight: 1.8 }}>
               From immunity-boosting turmeric to digestion-aiding mint, we strictly rely on pure, raw spices sourced directly from the earth. When you taste Uncle Makhana, you are tasting the uncompromising purity of nature itself. 
+            </p>
+          </div>
+        </div>
+
+        {/* Story Part 4 : Image Left, Text Right */}
+        <div className="story-split" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '80px', alignItems: 'center', marginBottom: '160px' }}>
+          <div style={{ borderRadius: 'var(--radius-xl)', overflow: 'hidden', boxShadow: 'var(--shadow-hover)' }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/health/vegan.png" alt="Healthy makhana salad bowl" style={{ width: '100%', height: 'auto', objectFit: 'cover', display: 'block' }} />
+          </div>
+          <div>
+            <div className="feature-icon" style={{ background: 'linear-gradient(135deg, var(--pastel-pink), #FFCDD2)', color: 'var(--brand-hover)', width: '80px', height: '80px', fontSize: '2rem', marginBottom: '32px' }}>
+              <FiHeart />
+            </div>
+            <h2 style={{ fontSize: 'clamp(2.5rem, 4vw, 3.5rem)', marginBottom: '32px', lineHeight: 1.1 }}>A Promise to <br/><span style={{ color: 'var(--brand-hover)' }}>Your Body.</span></h2>
+            <p style={{ fontSize: '1.25rem', color: 'var(--text-main)', lineHeight: 1.8, marginBottom: '24px' }}>
+              Whether you are vegan, gluten-free, or just trying to eat slightly better, Uncle Makhana is built to easily slide into your daily routine.
+            </p>
+            <p style={{ fontSize: '1.25rem', color: 'var(--text-muted)', lineHeight: 1.8 }}>
+              Our ingredients are 100% plant-based, naturally free of troublesome allergens, and packed with vital minerals like magnesium and calcium. Snacking shouldn&apos;t be a compromise—it should feel exactly like self-care.
+            </p>
+          </div>
+        </div>
+
+        {/* Story Part 5 : Text Left, Image Right */}
+        <div className="story-split" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '80px', alignItems: 'center', marginBottom: '80px', direction: 'rtl' }}>
+          <div style={{ borderRadius: 'var(--radius-xl)', overflow: 'hidden', boxShadow: 'var(--shadow-hover)' }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/health/wellness.png" alt="Morning wellness and fresh makhana" style={{ width: '100%', height: 'auto', objectFit: 'cover', display: 'block' }} />
+          </div>
+          <div style={{ direction: 'ltr' }}>
+            <div className="feature-icon" style={{ background: 'linear-gradient(135deg, var(--pastel-green), #C8E6C9)', color: 'var(--accent-green)', width: '80px', height: '80px', fontSize: '2rem', marginBottom: '32px' }}>
+              <FiSun />
+            </div>
+            <h2 style={{ fontSize: 'clamp(2.5rem, 4vw, 3.5rem)', marginBottom: '32px', lineHeight: 1.1 }}>Mindful, <br/><span style={{ color: 'var(--accent-green)' }}>Everyday Joy.</span></h2>
+            <p style={{ fontSize: '1.25rem', color: 'var(--text-main)', lineHeight: 1.8, marginBottom: '24px' }}>
+              Your morning tea, your afternoon study break, and your midnight movie cravings all deserve something better.
+            </p>
+            <p style={{ fontSize: '1.25rem', color: 'var(--text-muted)', lineHeight: 1.8 }}>
+              We created a snack that doesn&apos;t just fuel your physical body—it brings a spark of joy and mindfulness to your everyday rituals. Crisp, satisfying, and endlessly rewarding. Let the good times pop.
             </p>
           </div>
         </div>
