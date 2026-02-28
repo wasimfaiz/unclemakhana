@@ -129,7 +129,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
   return (
     <main className="page-wrapper pb-24">
       {/* Blog Article Header */}
-      <section className="relative overflow-hidden pt-40 pb-16">
+      <section className="relative overflow-hidden pt-40 pb-16" style={{ paddingTop: '160px' }}>
         <div className="container mx-auto px-6 max-w-3xl relative z-10 text-center">
           <Link href="/blogs" className="inline-flex items-center gap-2 mb-8 uppercase font-bold text-sm hover:underline" style={{ color: post.color }}>
             <FiChevronLeft /> Back to Blogs
@@ -147,11 +147,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ id: s
         </div>
         
         {/* Banner Graphic */}
-        <div className="container mx-auto px-6 max-w-5xl mt-8">
-          <div className="w-full h-64 md:h-[500px] rounded-2xl md:rounded-[40px] shadow-2xl relative overflow-hidden bg-gray-100">
+        <div style={{ maxWidth: '900px', margin: '32px auto 0', padding: '0 24px' }}>
+          <div style={{ width: '100%', height: '400px', borderRadius: '32px', position: 'relative', overflow: 'hidden', backgroundColor: '#f3f4f6', boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)' }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={post.image} alt={post.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-            <div className="absolute inset-0 border-[10px] md:border-[20px] rounded-2xl md:rounded-[40px] mix-blend-overlay" style={{ borderColor: post.color, opacity: 0.5 }}></div>
+            <div style={{ position: 'absolute', inset: 0, border: `16px solid ${post.color}`, opacity: 0.5, borderRadius: '32px', mixBlendMode: 'overlay' }}></div>
           </div>
         </div>
       </section>

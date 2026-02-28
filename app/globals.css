@@ -1407,3 +1407,16 @@ section {
 .blog-article-content li {
   margin-bottom: 12px;
 }
+
+@media (max-width: 768px) {
+  .blogs-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 24px 16px 80px;
+  }
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 24px 16px 80px;
+  }
+}
