@@ -90,10 +90,10 @@ export default function ProductsPage() {
   return (
     <main className="page-wrapper pb-24">
       {/* Product Page Header */}
-      <section className="page-header relative overflow-hidden pt-40 pb-20 text-center">
+      <section className="page-header relative overflow-hidden pt-40 pb-20 w-full flex flex-col items-center justify-center" style={{ paddingTop: '160px' }}>
         <div className="absolute inset-0 z-[-1] opacity-20 bg-blob-pattern mix-blend-multiply" />
-        <div className="container mx-auto px-6 max-w-4xl relative z-10">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white shadow-sm border border-orange-100 text-orange-500 font-bold mb-6 tracking-wide uppercase text-sm">
+        <div style={{ margin: '0 auto', textAlign: 'center', width: '100%', maxWidth: '800px', display: 'flex', flexDirection: 'column', alignItems: 'center' }} className="px-6 relative z-10">
+          <div className="inline-flex flex-row items-center justify-center gap-2 px-4 py-2 rounded-full bg-white shadow-sm border border-orange-100 text-orange-500 font-bold mb-6 tracking-wide uppercase text-sm">
             <FaLeaf /> 100% Natural Flavors
           </div>
           <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight text-gray-900">

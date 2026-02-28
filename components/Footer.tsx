@@ -90,7 +90,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="footer-bottom" style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '32px', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center' }}>
-          <p style={{ margin: 0 }}>&copy; {new Date().getFullYear()} Uncle Makhana. All rights reserved. Premium Snacking.</p>
+          <p style={{ margin: 0 }}>&copy; {new Date().getFullYear()} Uncle Makhana. All rights reserved.</p>
           <div style={{ display: 'flex', gap: '24px' }}>
             <Link href="/privacy-policy" style={{ color: 'rgba(255,255,255,0.4)', textDecoration: 'none' }}>Privacy Policy</Link>
             <Link href="#" style={{ color: 'rgba(255,255,255,0.4)', textDecoration: 'none' }}>Terms of Service</Link>
