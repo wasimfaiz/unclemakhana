@@ -38,12 +38,13 @@ export default function Footer() {
           
           {/* Brand Column */}
           <div>
-            <Link href="/" className="footer-brand" style={{ display: 'inline-flex', alignItems: 'center', gap: '12px', fontSize: '1.75rem', fontWeight: 900, marginBottom: '24px', textDecoration: 'none', color: 'white' }}>
+            <Link href="/" className="footer-brand" style={{ display: 'inline-flex', alignItems: 'center', gap: '12px', fontSize: '1.75rem', fontWeight: 900, marginBottom: '4px', textDecoration: 'none', color: 'white' }}>
               <span style={{ padding: '12px', borderRadius: '12px', background: 'rgba(255,255,255,0.1)', color: 'var(--brand-solid)' }}>
                 <GiFruitBowl />
               </span>
               <span>Uncle Makhana</span>
             </Link>
+            <div style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.875rem', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', marginBottom: '24px', paddingLeft: '4px' }}>By Zenfora Food</div>
             <p style={{ color: 'rgba(255,255,255,0.6)', lineHeight: 1.8, marginBottom: '32px', paddingRight: '16px' }}>
               Premium, hand-harvested fox nuts roasted to perfection. We are redefining the standard for healthy, delicious, and guilt-free snacking across the globe.
             </p>
@@ -90,7 +91,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="footer-bottom" style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '32px', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', alignItems: 'center' }}>
-          <p style={{ margin: 0 }}>&copy; {new Date().getFullYear()} Uncle Makhana. All rights reserved.</p>
+          <p style={{ margin: 0 }}>&copy; {new Date().getFullYear()} Uncle Makhana, a proud brand of <strong style={{ color: 'white' }}>Zenfora Food</strong>. All rights reserved.</p>
           <div style={{ display: 'flex', gap: '24px' }}>
             <Link href="/privacy-policy" style={{ color: 'rgba(255,255,255,0.4)', textDecoration: 'none' }}>Privacy Policy</Link>
             <Link href="#" style={{ color: 'rgba(255,255,255,0.4)', textDecoration: 'none' }}>Terms of Service</Link>
